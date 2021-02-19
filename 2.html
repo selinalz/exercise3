@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+      <title> EXERCISE 3 </title>
+    </head>
+
+    <body>
+
+      <img src="cady.jpg" class="image">
+      <div class="title"> Cady Heron </div>
+      <div class="text"> New girl at Northshore High <br> &nbsp New member of The Plastics <br> Worst Fashion Sense </div>
+      <div class="text2"> Two timing bitch!!!!!!!!!! </div>
+      <div class="arrow-right icon"></div>
+      <a class="arrow-right icon" href='3.html'>  </a>
+      <audio class="audio" controls>
+        <source src="song.ogg" type="audio/ogg">
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+    </body>
+
+
+    <style>
+
+      body{
+        background-color: #e588b6;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+      }
+
+      .image{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 20%;
+        transform: rotate(10deg);
+      }
+
+      .title{
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        font-size: 100px;
+        font-family: 'Shadows Into Light', cursive;
+      }
+
+      .text{
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        font-size: 40px;
+        font-family: 'Shadows Into Light', cursive;
+      }
+
+      .text2{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        font-size: 50px;
+        font-family: 'Shadows Into Light', cursive;
+        transform: rotate(-5deg);
+      }
+
+      .arrow-right.icon {
+        color: black;
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        width: 32px;
+        height: 3px;
+        background-color: currentColor;
+      }
+
+      .arrow-right.icon:before {
+        content: '';
+        position: absolute;
+        right: 1px;
+        top: -10px;
+        width: 20px;
+        height: 20px;
+        border-top: solid 3px currentColor;
+        border-right: solid 3px currentColor;
+        -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+
+        .audio{
+          position: absolute;
+          top: 3%;
+          right: 1%;
+          width: 15%;
+        }
+
+        @media screen and (max-width: 1200px) {
+
+          .image{
+            position: absolute;
+            top: 28%;
+            left: 10%;
+            width: 22%;
+            transform: rotate(10deg);
+          }
+
+          .title{
+            position: absolute;
+            top: 20%;
+            left: 40%;
+            font-size: 80px;
+            font-family: 'Shadows Into Light', cursive;
+          }
+
+          .text{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            font-size: 30px;
+            font-family: 'Shadows Into Light', cursive;
+          }
+
+          .text2{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            font-size: 40px;
+            font-family: 'Shadows Into Light', cursive;
+            transform: rotate(-5deg);
+          }
+
+          .audio{
+            position: absolute;
+            top: 3%;
+            right: 1%;
+            width: 20%;
+          }
+
+        }
+
+          @media screen and (max-width: 1000px) {
+
+            .image{
+              position: absolute;
+              top: 28%;
+              left: 10%;
+              width: 25%;
+              transform: rotate(10deg);
+            }
+
+            .title{
+              position: absolute;
+              top: 20%;
+              left: 45%;
+              font-size: 70px;
+              font-family: 'Shadows Into Light', cursive;
+            }
+
+            .text{
+              position: absolute;
+              top: 40%;
+              left: 40%;
+              font-size: 30px;
+              font-family: 'Shadows Into Light', cursive;
+            }
+
+            .text2{
+              position: absolute;
+              top: 70%;
+              left: 50%;
+              font-size: 40px;
+              font-family: 'Shadows Into Light', cursive;
+              transform: rotate(-5deg);
+            }
+
+            .audio{
+              position: absolute;
+              top: 3%;
+              right: 1%;
+              width: 20%;
+            }
+          }
+
+            @media screen and (max-width: 1000px) {
+
+              .image{
+                position: absolute;
+                top: 28%;
+                left: 10%;
+                width: 25%;
+                transform: rotate(10deg);
+              }
+
+              .title{
+                position: absolute;
+                top: 20%;
+                left: 45%;
+                font-size: 60px;
+                font-family: 'Shadows Into Light', cursive;
+              }
+
+              .text{
+                position: absolute;
+                top: 40%;
+                left: 40%;
+                font-size: 20px;
+                font-family: 'Shadows Into Light', cursive;
+              }
+
+              .text2{
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                font-size: 30px;
+                font-family: 'Shadows Into Light', cursive;
+                transform: rotate(-5deg);
+              }
+
+              .audio{
+                position: absolute;
+                top: 3%;
+                right: 1%;
+                width: 25%;
+              }
+
+              @media screen and (max-width: 600px) {
+
+                .image{
+                  position: absolute;
+                  top: 15%;
+                  left: 35%;
+                  width: 30%;
+                  transform: rotate(0deg);
+                }
+
+                .title{
+                  position: absolute;
+                  top: 47%;
+                  left: 25%;
+                  font-size: 60px;
+                  font-family: 'Shadows Into Light', cursive;
+                }
+
+                .text{
+                  position: absolute;
+                  top: 65%;
+                  left: 27%;
+                  font-size: 20px;
+                  font-family: 'Shadows Into Light', cursive;
+                }
+
+                .text2{
+                  position: absolute;
+                  top: 80%;
+                  left: 25%;
+                  font-size: 30px;
+                  font-family: 'Shadows Into Light', cursive;
+                  transform: rotate(0deg);
+                }
+
+                .audio{
+                  position: absolute;
+                  top: 3%;
+                  right: 3%;
+                  width: 22%;
+                }
+
+        }
+
+    </style>
+
+  </html>
