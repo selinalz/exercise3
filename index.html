@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title> EXERCISE 3 </title>
+    </head>
+
+    <body>
+
+      <img src="text.png" class="image">
+      <div class="key-solid icon"></div>
+      <a class="key-solid icon" href='2.html'>  </a>
+
+    </body>
+
+
+    <style>
+
+      body{
+        background-color: #E588B6;
+      }
+
+      .image{
+        position: absolute;
+        top: 10%;
+        left: 24%;
+        width: 50%;
+      }
+
+      .key-solid.icon {
+        color: black;
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: solid 1px currentColor;
+        background-color: currentColor;
+      }
+
+      .key-solid.icon:before {
+        content: '';
+        position: absolute;
+        left: 7px;
+        top: 3px;
+        width: 26px;
+        height: 2px;
+        background-color: currentColor;
+      }
+
+      .key-solid.icon:after {
+        content: '';
+        position: absolute;
+        left: 20px;
+        top: 3px;
+        width: 4px;
+        height: 6px;
+        border-left: solid 3px currentColor;
+        border-right: solid 3px currentColor;
+      }
+
+      @media screen and (max-width: 1200px) {
+
+        .image{
+          position: absolute;
+          top: 15%;
+          left: 15%;
+          width: 60%;
+        }
+
+      }
+
+      @media screen and (max-width: 1000px) {
+
+        .image{
+          position: absolute;
+          top: 15%;
+          left: 10%;
+          width: 70%;
+        }
+
+        @media screen and (max-width: 800px) {
+
+          .image{
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            width: 70%;
+          }
+
+      }
+
+    </style>
+
+  </html>
