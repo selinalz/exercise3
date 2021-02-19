@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+      <title> EXERCISE 3 </title>
+    </head>
+
+    <body>
+      <div class="title"> Au Revoir Mean Girls~ </div>
+      <img src="meangirls.jpg" class="image">
+      <div class="key-solid icon"></div>
+      <a class="key-solid icon" href='index.html'>  </a>
+
+    </body>
+
+    <style>
+
+      body{
+        background-color: #e588b6;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+      }
+
+      .title{
+        position: absolute;
+        top: 60%;
+        right: 15%;
+        font-size: 60px;
+        font-family: 'Shadows Into Light', cursive;
+      }
+
+      .image{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        height: 60%;
+      }
+
+      .key-solid.icon {
+        color: black;
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: solid 1px currentColor;
+        background-color: currentColor;
+      }
+
+      .key-solid.icon:before {
+        content: '';
+        position: absolute;
+        left: 7px;
+        top: 3px;
+        width: 26px;
+        height: 2px;
+        background-color: currentColor;
+      }
+
+      .key-solid.icon:after {
+        content: '';
+        position: absolute;
+        left: 20px;
+        top: 3px;
+        width: 4px;
+        height: 6px;
+        border-left: solid 3px currentColor;
+        border-right: solid 3px currentColor;
+      }
+
+      @media screen and (max-width: 1400px) {
+
+        .title{
+          position: absolute;
+          top: 60%;
+          right: 5%;
+          font-size: 45px;
+          font-family: 'Shadows Into Light', cursive;
+        }
+
+        .image{
+          position: absolute;
+          top: 20%;
+          left: 5%;
+          height: 50%;
+        }
+      }
+
+      @media screen and (max-width: 1200px) {
+
+        .title{
+          position: absolute;
+          top: 60%;
+          right: 5%;
+          font-size: 40px;
+          font-family: 'Shadows Into Light', cursive;
+        }
+
+        .image{
+          position: absolute;
+          top: 28%;
+          left: 5%;
+          height: 50%;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+
+        .title{
+          position: absolute;
+          top: 62%;
+          right: 15%;
+          font-size: 40px;
+          font-family: 'Shadows Into Light', cursive;
+        }
+
+        .image{
+          position: absolute;
+          top: 27%;
+          left: 20%;
+          height: 30%;
+        }
+      }
+
+    </style>
+  </html>

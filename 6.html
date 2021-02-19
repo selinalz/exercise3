@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <<link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+      <title> EXERCISE 3 </title>
+    </head>
+
+    <body>
+      <div class="title"> HALLOWEEN <br> PARTY!!! </div>
+      <div class="text"> Get up GIRLS!!! </div>
+      <img src="halloween.gif" class="gif">
+      <img src="halloween2.gif" class="gif2">
+      <img src="halloween3.gif" class="gif3">
+      <img src="halloween4.gif" class="gif4">
+      <div class="arrow-right icon"> </div>
+      <a class="arrow-right icon" href='7.html'> </a>
+
+    </body>
+
+    <style>
+
+      body{
+        background-color: #e588b6;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+      }
+
+      .title{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        font-size: 100px;
+        font-family: 'Shadows Into Light', cursive;
+        transform: rotate(-10deg);
+      }
+
+      .text{
+        position: absolute;
+        top: 55%;
+        left: 8%;
+        font-size: 50px;
+        font-family: 'Shadows Into Light', cursive;
+        transform: rotate(-10deg);
+      }
+
+      .gif{
+        position: absolute;
+        top: 0%;
+        left: 45%;
+        width: 40%;
+      }
+
+      .gif2{
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        width: 40%;
+      }
+
+      .gif3{
+        position: absolute;
+        top: 93%;
+        left: 45%;
+        width: 40%;
+      }
+
+      .gif4{
+        position: absolute;
+        top: 143%;
+        left: 45%;
+        width: 40%;
+      }
+
+      .arrow-right.icon {
+        color: black;
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        width: 32px;
+        height: 3px;
+        background-color: currentColor;
+      }
+
+      .arrow-right.icon:before {
+        content: '';
+        position: absolute;
+        right: 1px;
+        top: -10px;
+        width: 20px;
+        height: 20px;
+        border-top: solid 3px currentColor;
+        border-right: solid 3px currentColor;
+        -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+
+        @media screen and (max-width: 1200px) {
+
+          .gif2{
+            position: absolute;
+            top: 35%;
+            left: 45%;
+            width: 40%;
+          }
+
+          .gif3{
+            position: absolute;
+            top: 65%;
+            left: 45%;
+            width: 40%;
+          }
+
+          .gif4{
+            position: absolute;
+            top: 100%;
+            left: 45%;
+            width: 40%;
+          }
+}
+
+        @media screen and (max-width: 1000px) {
+
+          .gif2{
+            position: absolute;
+            top: 28%;
+            left: 45%;
+            width: 40%;
+          }
+
+          .gif3{
+            position: absolute;
+            top: 53%;
+            left: 45%;
+            width: 40%;
+          }
+
+          .gif4{
+            position: absolute;
+            top: 82%;
+            left: 45%;
+            width: 40%;
+          }
+}
+
+         @media screen and (max-width: 600px) {
+
+
+           .title{
+             position: absolute;
+             top: -5%;
+             left: 22%;
+             font-size: 60px;
+             font-family: 'Shadows Into Light', cursive;
+             transform: rotate(0deg);
+           }
+
+           .text{
+             position: absolute;
+             top: 20%;
+             left: 22%;
+             font-size: 30px;
+             font-family: 'Shadows Into Light', cursive;
+             transform: rotate(0deg);
+           }
+
+          .gif{
+            position: absolute;
+            top: 30%;
+            left: 22%;
+            width: 56%;
+          }
+
+          .gif2{
+            position: absolute;
+            top: 55%;
+            left: 22%;
+            width: 56%;
+          }
+
+          .gif3{
+            position: absolute;
+            top: 76.5%;
+            left: 22%;
+            width: 56%;
+          }
+
+          .gif4{
+            position: absolute;
+            top: 102%;
+            left: 22%;
+            width: 56%;
+          }
+}
+
+    </style>
+  </html>
